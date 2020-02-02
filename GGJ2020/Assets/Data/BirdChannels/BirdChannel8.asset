@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e85a38d5d25e46142832f49f4f6b01c9, type: 3}
+  m_Name: BirdChannel8
+  m_EditorClassIdentifier: 
+  _mixer: {fileID: 24100000, guid: 491f7472889bce84296217489c939013, type: 2}
+  _birdGroup: {fileID: 4575447371245591181, guid: 491f7472889bce84296217489c939013,
+    type: 2}
+  _audioClip: {fileID: 8300000, guid: bdeb14fee39543042b2b972f56d37004, type: 3}
+  _birdColor: {r: 0.62038827, g: 0.45834818, b: 0.9433962, a: 1}

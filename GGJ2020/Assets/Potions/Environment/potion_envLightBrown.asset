@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 594dd9ba002d0484a8db333754fd850c, type: 3}
+  m_Name: potion_envLightBrown
+  m_EditorClassIdentifier: 
+  _potionDetail:
+    magicSpices:
+      serializedVersion: 2
+      key0: {r: 0.33962262, g: 0.28737155, b: 0.20345317, a: 1}
+      key1: {r: 0.6320754, g: 0.5017619, b: 0.2951673, a: 1}
+      key2: {r: 0.6603774, g: 0.531458, b: 0.3270737, a: 0}
+      key3: {r: 0.7830189, g: 0.6167331, b: 0.380429, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 11028
+      ctime1: 41590
+      ctime2: 65377
+      ctime3: 65377
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 2
+    colorTint: {r: 1, g: 1, b: 1, a: 1}
+    specularColor: {r: 1, g: 1, b: 1, a: 1}
+    shininess: 0.5
+  _shaderDetail:
+    surfaceType: 0
+    blendMode: 1
+    receiveShadows: 1
+    specularHighlights: 0
+    enableInstancing: 1
+    burnable: 1
+  potionRecipe: {fileID: 4800000, guid: d456bab8d8145454096b0d39622e5855, type: 3}
+  _material: {fileID: 3526985215149799462}
+  _texture: {fileID: 1675509731683505418}
+--- !u!28 &1675509731683505418
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: tex_potion_gymBlack
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 2
+  m_Width: 32
+  m_Height: 1
+  m_CompleteImageSize: 128
+  m_TextureFormat: 4
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IgnoreMasterTextureLimit: 0
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  image data: 128
+  _typelessdata: 574934ff574934ff574934ff574934ff574934ffa1804bffa1804bffa1804bffa1804bffa1804bffa1804bffa1804bffa1804bffa1804bffa1804bffa1804bffa1804bffa1804bffa1804bffa1804bffa88853ffa88853ffa88853ffa88853ffa88853ffa88853ffa88853ffa88853ffa88853ffa88853ffa88853ffa88853ff
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+--- !u!21 &3526985215149799462
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat_potion_gymBlack
+  m_Shader: {fileID: 4800000, guid: d456bab8d8145454096b0d39622e5855, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _SPECULARHIGHLIGHTS_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 1675509731683505418}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BurnDissolveAmount: 0
+    - _BurnEdgeThiccness: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DstBlend: 0
+    - _ReceiveShadows: 1
+    - _Shininess: 0.5
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BurnEdgeColor: {r: 1, g: 0.5, b: 0, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}

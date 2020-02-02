@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 6b1c410c6c27c9c49885f9694eb461c2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _channel: {instanceID: 0}
+  - _birdSet: {fileID: 11400000, guid: a7d0c96509bcfaf4d8b010e0edbb0096, type: 2}
+  - _collectableSet: {fileID: 11400000, guid: f38723a4e8962004489a911780348cf7, type: 2}
+  - _triggerCollider: {instanceID: 0}
+  - _animator: {instanceID: 0}
+  - _childDisplay: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 594dd9ba002d0484a8db333754fd850c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - lightingData: {fileID: 11400000, guid: 2213427b04fbfd148933c22af39532e2, type: 2}
+  - potionRecipe: {fileID: 4800000, guid: d456bab8d8145454096b0d39622e5855, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
